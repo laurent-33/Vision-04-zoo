@@ -30,7 +30,8 @@ RUN conda install --yes --freeze-installed\
     'r-factoextra=1.0*' \
     'r-PerformanceAnalytics=1.5*' \
     'r-summarytools=0.9*' \
-	'r-randomForest=4.6*' \
+    'r-randomForest=4.6*' \
+    'r-mltools=0.3*' \
     && \
     conda clean -afy
     
